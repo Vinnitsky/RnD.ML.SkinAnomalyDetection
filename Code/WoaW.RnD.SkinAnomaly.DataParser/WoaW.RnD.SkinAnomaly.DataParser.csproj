@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>WoaW.RnD.SkinAnomaly.DataParser</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="..\..\Data\fail.images.json" Link="Data\fail.images.json" />
+    <Content Include="..\..\Data\images.json" Link="Data\images.json" />
+    <Content Include="..\..\Data\ok.images.json" Link="Data\ok.images.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
+</Project>

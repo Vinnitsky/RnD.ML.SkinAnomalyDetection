@@ -3,3 +3,11 @@
 ################################################################################
 
 /.vs
+/Code/.vs/WoaW.RnD.ML.SkinAnomaly/v15
+/Code/.vs
+/Code/packages
+/Code/WoaW.RnD.SkinAnomaly.UnitTests/bin/Debug
+/Code/WoaW.RnD.SkinAnomaly.UnitTests/obj/Debug
+/Code/WoaW.RnD.SkinAnomaly.DataParser/bin/Debug/netstandard2.0
+/Code/WoaW.RnD.SkinAnomaly.DataParser/obj
+/Data/transformed.images.json
