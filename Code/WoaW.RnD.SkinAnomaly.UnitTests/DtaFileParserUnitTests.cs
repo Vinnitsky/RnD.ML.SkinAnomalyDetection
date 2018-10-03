@@ -53,6 +53,17 @@ namespace WoaW.RnD.SkinAnomaly.UnitTests
 
         [TestMethod]
         [TestCategory("Parser")]
+        public void Load_SuccessTest()
+        {
+            var parser = new Parser();
+            var dataFilePath = Path.GetFullPath(@"..\..\..\..\Data\ok.images.json");
+            var records = parser.Load(dataFilePath);
+
+            Assert.IsNotNull(records);
+        }
+
+        [TestMethod]
+        [TestCategory("Parser")]
         public void ParseFailRecord_SuccessTest()
         {
             var parser = new Parser();
